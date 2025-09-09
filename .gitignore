@@ -1,0 +1,32 @@
+# ----- WordPress : dossiers à ignorer -----
+
+# Médias lourds (on met des captures à la place)
+wp-content/uploads/
+
+# Caches et sauvegardes automatiques
+wp-content/cache/
+wp-content/upgrade/
+wp-content/updraft/
+wp-content/wflogs/
+wp-content/jetpack-waf/
+wp-content/upgrade-temp-backup/
+
+# Logs (journaux d’erreurs)
+*.log
+
+# Fichiers temporaires et compressés
+*.tmp
+*.zip
+*.rar
+*.tar
+
+# Plugins lourds (JS/Node)
+wp-content/plugins/*/node_modules/
+wp-content/plugins/*/*.map
+
+# Plugins lourds / chemins trop longs
+wp-content/plugins/google-listings-and-ads/
+wp-content/plugins/**/vendor/
+wp-content/plugins/**/node_modules/
+
+
