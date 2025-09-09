@@ -7,9 +7,12 @@
 ---
 
 ## 🔑 Accès administrateur
-- URL locale : `http://localhost/wordpress/`
+- URL locale :  `http://localhost/wordpress/wp-admin`
 - Identifiant admin : admin2
 - Mot de passe : Test@135791113
+
+## 🌐 Accès au site
+- URL : `http://localhost/wordpress/`
 
 *(Ces identifiants sont fournis uniquement pour la correction locale.)*
 
